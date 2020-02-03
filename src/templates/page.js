@@ -21,9 +21,10 @@ export default class Page extends React.Component {
                     <section className={'wrapper '}>
                         <div className="inner">
                             <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name')} netlify-honeypot="bot-field" >
-                                <input type='hidden' value={_.get(this.props, 'pageContext.name')} />
-                                <input type='text' name='Naam' /><br/>
-                                <input type='email' name='Email' /><br/>
+                                <label for='naam' value='Naam' /><br/>
+                                <input type='text' name='Naam' id='naam' /><br/>
+                                <label for='email' value='E-mail' /><br/>
+                                <input type='email' name='Email' id='email' /><br/>
                                 <input type='submit' value='Verzenden'/>
                             </form>
                         </div>
