@@ -18,7 +18,7 @@ export default class Page extends React.Component {
                             {htmlToReact(_.get(this.props, 'pageContext.html'))}
                         </div>
                     </section>
-                    <section className={'wrapper ' + _.get(this.props, 'pageContext.frontmatter.background_style')}>
+                    <section className={'wrapper '}>
                         <div className="inner">
                             <form method="POST" data-netlify="true" name='pageContext.id'>
                                 <input type='hidden' value={_.get(this.props, 'pageContext.name')} />
