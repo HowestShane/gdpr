@@ -25,18 +25,16 @@ export default class Page extends React.Component {
                                 Langs deze weg kan u uw interesse doorgeven.<br />We nemen zo snel mogelijk contact op met meer praktische informatie en een betalingsuitnodiging.
                             </p>
                             <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name')}>
-                                <label>Naam<br />
-                                    <input type='text' name='Naam' />
-                                </label>
+                                <label>Naam</label>
                                 {_.get(this.props, 'pageContext.name') === 'gdpr-actuele-stand-van-zaken' && 
                                     <div>
                                         <label>Data<br /><input type="text" name="data"/></label>
 
                                         <input type="checkbox" id="8juni" name="8juni"/>
-                                        <label htmlFor="8juni">Email me a copy</label>
+                                        <label htmlFor="8juni">8 juni</label>
 
                                         <input type="checkbox" id="9juni" name="9juni"/>
-                                        <label htmlFor="9juni">Email me a copy</label>
+                                        <label htmlFor="9juni">9 juni</label>
                                     </div>
                                 }
                                 <label>E-mailadres<br />
