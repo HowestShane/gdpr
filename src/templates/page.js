@@ -24,9 +24,9 @@ export default class Page extends React.Component {
                             <p>
                                 Langs deze weg kan u uw interesse doorgeven.<br />We nemen zo snel mogelijk contact op met meer praktische informatie en een betalingsuitnodiging.
                             </p>
-                            {/*
-  
+                           
                             <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name') + '-form'} >
+                               <input type="hidden" name="form-name" value={_.get(this.props, 'pageContext.name') + '-form'} />
                                 <label>Naam<br />
                                     <input type='text' name='naam' />
                                 </label>
@@ -53,22 +53,6 @@ export default class Page extends React.Component {
                                 
                                 
                                 <button type="submit">Verzenden</button>
-                            </form>
-                            */}
-
-                            <form name={_.get(this.props, 'pageContext.name') + '-form'} method="POST" data-netlify="true" >
-                            <p>
-                                <label>Naam: <input type="text" name="name" /></label>   
-                            </p>
-                            <p>
-                                <label>E-mail: <input type="email" name="email" /></label>
-                            </p>
-                            <p>
-                                <label>Opmerkingen: <textarea name="message"></textarea></label>
-                            </p>
-                            <p>
-                                <button type="submit">Send</button>
-                            </p>
                             </form>
                         </div>
                     </section>
