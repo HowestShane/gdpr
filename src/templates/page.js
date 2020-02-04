@@ -43,9 +43,7 @@ export default class Page extends React.Component {
                                 <label>E-mailadres<br />
                                     <input type='text' name='Email' />
                                 </label>
-                                <label>Opmerkingen<br />
-                                    <textarea name='Opmerkingen'></textarea>
-                                </label>
+
                                 <input type='submit' value='Verzenden'/>
                             </form>
                         </div>
