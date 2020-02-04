@@ -25,14 +25,14 @@ export default class Page extends React.Component {
                                 Langs deze weg kan u uw interesse doorgeven.<br />We nemen zo snel mogelijk contact op met meer praktische informatie en een betalingsuitnodiging.
                             </p>
   
-                            <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name') + '_form'} >
+                            <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name') + '-form'} >
                                 <label>Naam<br />
                                     <input type='text' name='naam' />
                                 </label>
                                 
                                 {_.get(this.props, 'pageContext.name') === 'gdpr-actuele-stand-van-zaken' && 
                                     <div>
-                                        Data
+                                        Data<br />
 
                                         <input type="checkbox" id="8juni" name="8juni" />
                                         <label htmlFor="8juni">8 juni</label>
