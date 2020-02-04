@@ -25,7 +25,7 @@ export default class Page extends React.Component {
                                 Langs deze weg kan u uw interesse doorgeven.<br />We nemen zo snel mogelijk contact op met meer praktische informatie en een betalingsuitnodiging.
                             </p>
                            
-                            <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name') + '-form'} >
+                            <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name') + '-form'} netlify-honeypot="bot-field">
                                <input type="hidden" name="form-name" value={_.get(this.props, 'pageContext.name') + '-form'} />
                                 <label>Naam<br />
                                     <input type='text' name='naam' />
