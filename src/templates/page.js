@@ -43,7 +43,7 @@ export default class Page extends React.Component {
                                 }
 
                                 <label>E-mailadres<br />
-                                    <input type='text' name='email' />
+                                    <input type='email' name='email' />
                                 </label>
 
                                 <label>Opmerkingen<br />
