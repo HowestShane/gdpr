@@ -22,7 +22,7 @@ export default class Page extends React.Component {
                         <div className="inner">
                             <h2>Inschrijven</h2>
                             <p>
-                                Langs deze weg kan u uw interesse doorgeven. U ontvangt dan een betalingsuitnodiging waarna uw inschrijving definitief is.
+                                Langs deze weg kan u uw interesse doorgeven. We nemen dan zo snel mogelijk contact op met meer praktische informatie en een betalingsuitnodiging.
                             </p>
                             <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name')}>
                                 <label>Naam<br />
