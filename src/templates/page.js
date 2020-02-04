@@ -32,7 +32,7 @@ export default class Page extends React.Component {
                                 
                                 {_.get(this.props, 'pageContext.name') === 'gdpr-actuele-stand-van-zaken' && 
                                     <div>
-                                        <label>Data</label>
+                                        Data
 
                                         <input type="checkbox" id="8juni" name="8juni" />
                                         <label htmlFor="8juni">8 juni</label>
@@ -47,7 +47,7 @@ export default class Page extends React.Component {
                                 </label>
 
                                 <label>Opmerkingen<br />
-                                    <textarea name='Opmerkingen'></textarea>
+                                    <textarea name='opmerkingen'></textarea>
                                 </label>
                                 
                                 
