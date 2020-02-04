@@ -21,11 +21,13 @@ export default class Page extends React.Component {
                     <section className={'wrapper '}>
                         <div className="inner">
                             <h2>Inschrijven</h2>
-                            <form method="POST" action="#" data-netlify="true" name={_.get(this.props, 'pageContext.name')}>
-                                <label for='naam'>Naam</label>
-                                <input type='text' name='Naam' id='naam' /><br/>
-                                <label for='email'>E-mail</label>
-                                <input type='email' name='Email' id='email' /><br/>
+                            <form method="POST" data-netlify="true" name={_.get(this.props, 'pageContext.name')}>
+                                <label>Naam<br />
+                                    <input type='text' name='Naam' />
+                                </label>
+                                <label>E-mailadres<br />
+                                    <input type='text' name='Naam' />
+                                </label>
                                 <input type='submit' value='Verzenden'/>
                             </form>
                         </div>
