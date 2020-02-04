@@ -28,7 +28,7 @@ export default class Page extends React.Component {
                                 <label>Naam</label>
                                 {_.get(this.props, 'pageContext.name') === 'gdpr-actuele-stand-van-zaken' && 
                                     <div>
-                                        <label>Data<br /><input type="text" name="data"/></label>
+                                        <label>Data</label>
 
                                         <input type="checkbox" id="8juni" name="8juni"/>
                                         <label htmlFor="8juni">8 juni</label>
