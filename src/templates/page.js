@@ -21,7 +21,7 @@ export default class Page extends React.Component {
                     <section className={'wrapper '}>
                         <div className="inner">
                             <h2>Inschrijven</h2>
-                            <form method="POST" action="#" data-netlify="true" name={_.get(this.props, 'pageContext.name')} netlify-honeypot="bot-field" >
+                            <form method="POST" action="#" data-netlify="true" name={_.get(this.props, 'pageContext.name')}>
                                 <label for='naam'>Naam</label>
                                 <input type='text' name='Naam' id='naam' /><br/>
                                 <label for='email'>E-mail</label>
