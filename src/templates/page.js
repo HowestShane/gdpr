@@ -32,6 +32,9 @@ export default class Page extends React.Component {
                                     <div>
                                         <label><input type="checkbox" name="8juni"/> 8 juni</label>
                                         <label><input type="checkbox" name="9juni"/> 9 juni</label>
+
+                                        <input type="checkbox" id="demo-human" name="demo-human" checked/>
+                                        <label htmlFor="demo-human">Not a robot</label>
                                     </div>
                                 }
                                 <label>E-mailadres<br />
