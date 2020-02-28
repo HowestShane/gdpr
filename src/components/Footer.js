@@ -14,7 +14,7 @@ export default class Footer extends React.Component {
                         ))}
                     </ul>
                 }
-                <img src={'/images/howest-logo.png'} alt="Logo" />
+                <img src={'/images/howest-logo.svg'} class='width:20rem;' alt="Logo" />
                 {_.get(this.props, 'pageContext.site.data.footer.copyright') && 
                     <ul className="copyright">
                         <li>
