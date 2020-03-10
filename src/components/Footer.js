@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, htmlToReact} from '../utils';
+import {Link, htmlToReact, safePrefix} from '../utils';
 
 export default class Footer extends React.Component {
     render() {
