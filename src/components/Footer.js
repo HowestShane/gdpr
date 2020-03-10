@@ -14,6 +14,7 @@ export default class Footer extends React.Component {
                         ))}
                     </ul>
                 }
+                <Link to={safePrefix('/privacy-policy')}>Privacyverklaring</Link>
                 <img src={'/images/howest-logo.svg'} style={{width: '20rem'}} alt="Logo" />
                 {_.get(this.props, 'pageContext.site.data.footer.copyright') && 
                     <ul className="copyright">
